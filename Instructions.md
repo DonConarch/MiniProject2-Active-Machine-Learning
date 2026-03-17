@@ -4,7 +4,8 @@ Implement a Query By Committee (QBC) active learning system to classify mushroom
 --------------------------------------------------
 
 1. Data Handling
-- Load a mushroom dataset with categorical features and a binary label (poisonous = p, edible = e)
+- Load the mushroom dataset with categorical features and a binary label (poisonous = p, edible = e) (Path: Data/Mushroom data.csv)
+- Find out which features the dataset includes
 - Apply One-Hot Encoding to all features
 - Encode labels as binary (0/1)
 
@@ -34,7 +35,7 @@ Repeat for multiple iterations:
 3. Compute disagreement for each sample:
    - Use vote-based disagreement
    - Count how many models disagree on the label
-4. Select top k most disagreed samples (e.g., k = 100)
+4. Select top k most disagreed samples (e.g., k = 10)
 5. Move selected samples from U to L
    - Reveal their true labels (simulate labeling)
 
