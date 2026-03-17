@@ -1,0 +1,1 @@
+# This file should contain all the models in the committee as a class if possible
