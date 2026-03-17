@@ -4,7 +4,7 @@ Implement a Query By Committee (QBC) active learning system to classify mushroom
 --------------------------------------------------
 
 1. Data Handling
-- Load the mushroom dataset with categorical features and a binary label (poisonous = p, edible = e) (Path: Data/Mushroom data.csv)
+- Load the mushroom dataset with categorical features and a binary label (poisonous = p, edible = e) (Path: Data/spambase.csv)
 - Find out which features the dataset includes
 - Apply One-Hot Encoding to all features
 - Encode labels as binary (0/1)
@@ -16,7 +16,7 @@ Implement a Query By Committee (QBC) active learning system to classify mushroom
 
 --------------------------------------------------
 
-2. Committee Models
+1. Committee Models
 Use exactly these 3 models:
 - Logistic Regression
 - Decision Tree Classifier
