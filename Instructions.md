@@ -34,7 +34,7 @@ Repeat for multiple iterations:
 3. Compute disagreement for each sample:
    - Use vote-based disagreement
    - Count how many models disagree on the label
-4. Select top k most disagreed samples (e.g., k = 10)
+4. Select top k most disagreed samples (e.g., k = 100)
 5. Move selected samples from U to L
    - Reveal their true labels (simulate labeling)
 
@@ -83,12 +83,14 @@ Organize code into:
 - Evaluation
 - Visualization
 
+
 --------------------------------------------------
 
 9. Constraints
 - Use Python with: scikit-learn, numpy, pandas, matplotlib
 - Keep code simple and readable
 - Add comments explaining each step
+- Make the code simple so that it is clearly structured and easy for non-expert coders to understand what is going on. Make it to some degree look like it was done by university students.
 
 --------------------------------------------------
 
