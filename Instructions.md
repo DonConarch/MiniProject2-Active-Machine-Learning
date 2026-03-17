@@ -1,10 +1,11 @@
 Task:
-Implement a Query By Committee (QBC) active learning system to classify mushrooms as poisonous or edible using a categorical dataset.
+Implement a Query By Committee (QBC) active learning system to classify data using a categorical dataset.
 
 --------------------------------------------------
 
 1. Data Handling
-- Load the mushroom dataset with categorical features and a binary label (poisonous = p, edible = e) (Path: Data/Mushroom data.csv)
+Dataset to use: 
+- Load the dataset with categorical features and a binary label
 - Find out which features the dataset includes
 - Apply One-Hot Encoding to all features
 - Encode labels as binary (0/1)
